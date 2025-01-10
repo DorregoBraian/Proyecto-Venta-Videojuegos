@@ -1,0 +1,33 @@
+<div class="contenedor-carrito">
+    <div class="lista-juegos">
+        <h2>Mi Carrito</h2>
+        @for(item of carrito; track item.juego.id){
+        <app-card-carrito [portada]="item.juego.portada" [titulo]="item.juego.titulo" [precio]="item.juego.precio"
+            [cantidad]="item.cantidad" [id]="item.juego.id" (totalActualizado)="actualizarTotal($event, item.juego.id)">
+        </app-card-carrito>
+        }
+    </div>
+
+    <!-- Resumen del carrito -->
+    <div class="resumen-carrito">
+        <div class="resumen-carrito-div">
+            <h3>Resumen</h3>
+            <select name="-" id="" [(ngModel)]="selectedCurrency">
+                @for(moneta of currencyList; track $index){
+                    <option [value]="moneta.code">{{moneta.symbol}}&nbsp;&nbsp;{{moneta.code}} </option>
+                }    
+            </select>
+        </div>
+        @for(item of carrito; track item.juego.id){
+        <div class="item-carrito">
+            <p>{{ item.juego.titulo }}</p>
+            <p class="precio">{{ item.juego.precio * item.cantidad | currency:selectedCurrency:'symbol':'1.0-0' }}</p>
+        </div>
+        }
+        <h6 class="linea"></h6>
+        <div class="item-carrito">
+            <h4>Total: </h4>
+            <h4 class="precio">{{totalGeneral | currency:selectedCurrency:'symbol':'1.0-0'}}</h4>
+        </div>
+    </div>
+</div>

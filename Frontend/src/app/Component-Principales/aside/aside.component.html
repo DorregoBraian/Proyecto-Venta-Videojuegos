@@ -1,0 +1,11 @@
+<aside class="aside-container">
+    <section class="aside-section" *ngFor="let item of asideList">
+        <img class="aside-image" [src]="item.thumb" alt="Imagen del juego" />
+        <p class="aside-title">{{ item.title }}</p>
+        <div class="price-container">
+            <span class="price-original">${{ item.normalPrice }}</span>
+            <span class="price-sale">${{ item.salePrice }}</span>
+        </div>
+        <p class="aside-rating">Clasificación: {{ item.dealRating }}</p>
+    </section>
+</aside>

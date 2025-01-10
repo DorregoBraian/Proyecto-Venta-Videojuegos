@@ -1,0 +1,25 @@
+<div class="registro-container">
+    <div class="registro-rectangulo">
+        <img src="Iconos/Logo2.png" alt="Logo" class="registro-logo" />
+        <h2 class="registro-titulo">Crea tu cuenta GRATIS</h2>
+        <form (ngSubmit)="onRegister()" #registerForm="ngForm">
+            <div class="registro-campo">
+                <input type="text" placeholder="Nombre" [(ngModel)]="nombre" name="nombre" required
+                    class="registro-input" />
+            </div>
+            <div class="registro-campo">
+                <input type="email" placeholder="Correo Electrónico" [(ngModel)]="email" name="email" required email
+                    class="registro-input" />
+            </div>
+            <div class="registro-campo">
+                <input type="password" placeholder="Contraseña" [(ngModel)]="password" name="password" required
+                    pattern="(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#\$%\^&\*])(?=.{8,})" class="registro-input" />
+            </div>
+            <button type="submit" class="registro-boton">Registrarse Ahora</button>
+        </form>
+        <p class="registro-texto">
+            ¿Ya estás registrado?
+            <a routerLink="login" class="registro-enlace">Inicia sesión</a>
+        </p>
+    </div>
+</div>

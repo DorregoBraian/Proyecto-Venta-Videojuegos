@@ -1,0 +1,134 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Rayan\\source\\repos\\API Rest de Videos Juegos\\API Rest de Videos Juegos\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Rayan\\source\\repos\\API Rest de Videos Juegos\\Infraestructura\\Migrations\\20250109215312_initMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C73A147-3B51-4C17-A8FA-B79ED8494E04}|..\\Infraestructura\\Infraestructura.csproj|c:\\users\\rayan\\source\\repos\\api rest de videos juegos\\infraestructura\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Rayan\\AppData\\Roaming\\Microsoft\\UserSecrets\\691639c3-a20f-4582-bb50-ce5f2559c5f4\\secrets.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43327862-73CE-475E-976B-E2A061927095}|..\\Tarea en Segundo Plano\\Tarea en Segundo Plano.csproj|c:\\users\\rayan\\source\\repos\\api rest de videos juegos\\tarea en segundo plano\\data\\datagame.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43327862-73CE-475E-976B-E2A061927095}|..\\Tarea en Segundo Plano\\Tarea en Segundo Plano.csproj|c:\\users\\rayan\\source\\repos\\api rest de videos juegos\\tarea en segundo plano\\data\\dataseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F84274D-4DCF-4A71-B8BF-5C7362D4A05B}|API Rest de Videos Juegos.csproj|c:\\users\\rayan\\source\\repos\\api rest de videos juegos\\api rest de videos juegos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F84274D-4DCF-4A71-B8BF-5C7362D4A05B}|API Rest de Videos Juegos.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Rayan\\source\\repos\\API Rest de Videos Juegos\\Infraestructura\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "..\\Infraestructura\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Rayan\\source\\repos\\API Rest de Videos Juegos\\Infraestructura\\ApplicationDbContext.cs",
+              "RelativeToolTip": "..\\Infraestructura\\ApplicationDbContext.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAYwAYAAAB6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T18:19:16.324Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Rayan\\source\\repos\\API Rest de Videos Juegos\\API Rest de Videos Juegos\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Rayan\\source\\repos\\API Rest de Videos Juegos\\API Rest de Videos Juegos\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAADsAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T16:28:15.089Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DataGame.json",
+              "DocumentMoniker": "C:\\Users\\Rayan\\source\\repos\\API Rest de Videos Juegos\\Tarea en Segundo Plano\\Data\\DataGame.json",
+              "RelativeDocumentMoniker": "..\\Tarea en Segundo Plano\\Data\\DataGame.json",
+              "ToolTip": "C:\\Users\\Rayan\\source\\repos\\API Rest de Videos Juegos\\Tarea en Segundo Plano\\Data\\DataGame.json",
+              "RelativeToolTip": "..\\Tarea en Segundo Plano\\Data\\DataGame.json",
+              "ViewState": "AgIAAF0KAAAAAAAAAAAAAGMKAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-26T19:14:21.542Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DataSeeder.cs",
+              "DocumentMoniker": "C:\\Users\\Rayan\\source\\repos\\API Rest de Videos Juegos\\Tarea en Segundo Plano\\Data\\DataSeeder.cs",
+              "RelativeDocumentMoniker": "..\\Tarea en Segundo Plano\\Data\\DataSeeder.cs",
+              "ToolTip": "C:\\Users\\Rayan\\source\\repos\\API Rest de Videos Juegos\\Tarea en Segundo Plano\\Data\\DataSeeder.cs",
+              "RelativeToolTip": "..\\Tarea en Segundo Plano\\Data\\DataSeeder.cs",
+              "ViewState": "AgIAANEAAAAAAAAAAAAIwJ0AAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T19:14:38.865Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "secrets.json",
+              "DocumentMoniker": "C:\\Users\\Rayan\\AppData\\Roaming\\Microsoft\\UserSecrets\\691639c3-a20f-4582-bb50-ce5f2559c5f4\\secrets.json",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\AppData\\Roaming\\Microsoft\\UserSecrets\\691639c3-a20f-4582-bb50-ce5f2559c5f4\\secrets.json",
+              "ToolTip": "C:\\Users\\Rayan\\AppData\\Roaming\\Microsoft\\UserSecrets\\691639c3-a20f-4582-bb50-ce5f2559c5f4\\secrets.json",
+              "RelativeToolTip": "..\\..\\..\\..\\AppData\\Roaming\\Microsoft\\UserSecrets\\691639c3-a20f-4582-bb50-ce5f2559c5f4\\secrets.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-21T18:33:00.877Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20250109215312_initMigration.cs",
+              "DocumentMoniker": "C:\\Users\\Rayan\\source\\repos\\API Rest de Videos Juegos\\Infraestructura\\Migrations\\20250109215312_initMigration.cs",
+              "RelativeDocumentMoniker": "..\\Infraestructura\\Migrations\\20250109215312_initMigration.cs",
+              "ToolTip": "C:\\Users\\Rayan\\source\\repos\\API Rest de Videos Juegos\\Infraestructura\\Migrations\\20250109215312_initMigration.cs",
+              "RelativeToolTip": "..\\Infraestructura\\Migrations\\20250109215312_initMigration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T21:53:12.194Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

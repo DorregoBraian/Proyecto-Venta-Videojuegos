@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API Rest de Videos Juegos", "API Rest de Videos Juegos.csproj", "{0F84274D-4DCF-4A71-B8BF-5C7362D4A05B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dominio", "..\Dominio\Dominio.csproj", "{87805306-B48A-4A2B-B47A-F795E1AF988A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infraestructura", "..\Infraestructura\Infraestructura.csproj", "{4C73A147-3B51-4C17-A8FA-B79ED8494E04}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aplicacion", "..\Aplicacion\Aplicacion.csproj", "{DD7D8009-4A53-4C98-9F0F-B8A427D9A9D4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Testing", "..\Testing\Testing.csproj", "{AD5934EB-2F5D-4DDE-9F0A-7B03DE399406}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tarea en Segundo Plano", "..\Tarea en Segundo Plano\Tarea en Segundo Plano.csproj", "{43327862-73CE-475E-976B-E2A061927095}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0F84274D-4DCF-4A71-B8BF-5C7362D4A05B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F84274D-4DCF-4A71-B8BF-5C7362D4A05B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F84274D-4DCF-4A71-B8BF-5C7362D4A05B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F84274D-4DCF-4A71-B8BF-5C7362D4A05B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87805306-B48A-4A2B-B47A-F795E1AF988A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87805306-B48A-4A2B-B47A-F795E1AF988A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87805306-B48A-4A2B-B47A-F795E1AF988A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87805306-B48A-4A2B-B47A-F795E1AF988A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C73A147-3B51-4C17-A8FA-B79ED8494E04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C73A147-3B51-4C17-A8FA-B79ED8494E04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C73A147-3B51-4C17-A8FA-B79ED8494E04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C73A147-3B51-4C17-A8FA-B79ED8494E04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD7D8009-4A53-4C98-9F0F-B8A427D9A9D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD7D8009-4A53-4C98-9F0F-B8A427D9A9D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD7D8009-4A53-4C98-9F0F-B8A427D9A9D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD7D8009-4A53-4C98-9F0F-B8A427D9A9D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD5934EB-2F5D-4DDE-9F0A-7B03DE399406}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD5934EB-2F5D-4DDE-9F0A-7B03DE399406}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD5934EB-2F5D-4DDE-9F0A-7B03DE399406}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD5934EB-2F5D-4DDE-9F0A-7B03DE399406}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43327862-73CE-475E-976B-E2A061927095}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43327862-73CE-475E-976B-E2A061927095}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43327862-73CE-475E-976B-E2A061927095}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43327862-73CE-475E-976B-E2A061927095}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1E08AAAD-AF3B-4158-B4E9-B2FF7EC74B08}
+	EndGlobalSection
+EndGlobal

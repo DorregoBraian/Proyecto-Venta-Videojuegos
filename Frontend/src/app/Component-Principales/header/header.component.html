@@ -1,0 +1,27 @@
+<header class="header">
+    <nav class="header-nav">
+        <ul>
+            <li><a routerLink="home" class="nav-link">Home</a></li>
+            <li><a routerLink="acerca-de" class="nav-link">Acerca de</a></li>
+            <li><a routerLink="list-juegos" class="nav-link">Juegos</a></li>
+            <li><img src="Iconos/Logo2.png" alt="Logo" class="logo"></li>
+            <li><a routerLink="contactos" class="nav-link">Contactos</a></li>
+            @if(!isLoggedIn){
+            <li><a routerLink="login" class="nav-link login">Log in</a></li>
+            <li><a routerLink="sing-up" class="nav-link signup">Sign Up</a></li>
+            }@else{
+            <li><a routerLink="home" class="nav-link logout" (click)="logout()">log out</a></li>
+            <li class="user-menu">
+                <a class="nav-link user" (click)="toggleMenu()">{{nombreUsuario}}</a>
+                @if(menuOpen){
+                <ul class="dropdown-menu" (mouseleave)="closeMenu()">
+                    <li><a routerLink="home" class="dropdown-link" (click)="closeMenu()">Inicio</a></li>
+                    <li><a routerLink="carrito" class="dropdown-link" (click)="closeMenu()">Carrito</a></li>
+                    <li><a routerLink="favoritos" class="dropdown-link" (click)="closeMenu()">Favoritos</a></li>
+                </ul>
+                }
+            </li>
+            }
+        </ul>
+    </nav>
+</header>

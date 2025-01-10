@@ -1,0 +1,376 @@
+﻿++Solución "API Rest de Videos Juegos" ‎(6 de 6 proyectos)
+i:{00000000-0000-0000-0000-000000000000}:API Rest de Videos Juegos.sln
+++API Rest de Videos Juegos
+i:{00000000-0000-0000-0000-000000000000}:API Rest de Videos Juegos
+i:{43327862-73ce-475e-976b-e2a061927095}:c:\users\rayan\source\repos\api rest de videos juegos\api rest de videos juegos\bin\debug\net6.0\api rest de videos juegos.dll
+i:{ad5934eb-2f5d-4dde-9f0a-7b03de399406}:c:\users\rayan\source\repos\api rest de videos juegos\api rest de videos juegos\bin\debug\net6.0\api rest de videos juegos.dll
+++Connected Services 
+i:{0f84274d-4dcf-4a71-b8bf-5c7362d4a05b}:>1667
+i:{43327862-73ce-475e-976b-e2a061927095}:>1501
+++Dependencias
+i:{0f84274d-4dcf-4a71-b8bf-5c7362d4a05b}:>1669
+i:{87805306-b48a-4a2b-b47a-f795e1af988a}:>1498
+i:{4c73a147-3b51-4c17-a8fa-b79ed8494e04}:>1497
+i:{dd7d8009-4a53-4c98-9f0f-b8a427d9a9d4}:>1496
+i:{43327862-73ce-475e-976b-e2a061927095}:>1500
+i:{ad5934eb-2f5d-4dde-9f0a-7b03de399406}:>1499
+++Properties
+i:{0f84274d-4dcf-4a71-b8bf-5c7362d4a05b}:c:\users\rayan\source\repos\api rest de videos juegos\api rest de videos juegos\properties\
+i:{43327862-73ce-475e-976b-e2a061927095}:c:\users\rayan\source\repos\api rest de videos juegos\tarea en segundo plano\properties\
+++Controllers
+i:{0f84274d-4dcf-4a71-b8bf-5c7362d4a05b}:c:\users\rayan\source\repos\api rest de videos juegos\api rest de videos juegos\controllers\
+i:{ad5934eb-2f5d-4dde-9f0a-7b03de399406}:c:\users\rayan\source\repos\api rest de videos juegos\testing\controllers\
+++ClasificacionController.cs
+i:{0f84274d-4dcf-4a71-b8bf-5c7362d4a05b}:c:\users\rayan\source\repos\api rest de videos juegos\api rest de videos juegos\controllers\clasificacioncontroller.cs
+++GeneroController.cs
+i:{0f84274d-4dcf-4a71-b8bf-5c7362d4a05b}:c:\users\rayan\source\repos\api rest de videos juegos\api rest de videos juegos\controllers\generocontroller.cs
+++IdiomaController.cs
+i:{0f84274d-4dcf-4a71-b8bf-5c7362d4a05b}:c:\users\rayan\source\repos\api rest de videos juegos\api rest de videos juegos\controllers\idiomacontroller.cs
+++JuegosController.cs
+i:{0f84274d-4dcf-4a71-b8bf-5c7362d4a05b}:c:\users\rayan\source\repos\api rest de videos juegos\api rest de videos juegos\controllers\juegoscontroller.cs
+++PlataformaController.cs
+i:{0f84274d-4dcf-4a71-b8bf-5c7362d4a05b}:c:\users\rayan\source\repos\api rest de videos juegos\api rest de videos juegos\controllers\plataformacontroller.cs
+++UsuarioController.cs
+i:{0f84274d-4dcf-4a71-b8bf-5c7362d4a05b}:c:\users\rayan\source\repos\api rest de videos juegos\api rest de videos juegos\controllers\usuariocontroller.cs
+++appsettings.json
+i:{0f84274d-4dcf-4a71-b8bf-5c7362d4a05b}:c:\users\rayan\source\repos\api rest de videos juegos\api rest de videos juegos\appsettings.json
+i:{43327862-73ce-475e-976b-e2a061927095}:c:\users\rayan\source\repos\api rest de videos juegos\tarea en segundo plano\appsettings.json
+++AutoMapper.cs
+i:{0f84274d-4dcf-4a71-b8bf-5c7362d4a05b}:c:\users\rayan\source\repos\api rest de videos juegos\api rest de videos juegos\automapper.cs
+++libman.json
+i:{0f84274d-4dcf-4a71-b8bf-5c7362d4a05b}:c:\users\rayan\source\repos\api rest de videos juegos\api rest de videos juegos\libman.json
+++Program.cs
+i:{0f84274d-4dcf-4a71-b8bf-5c7362d4a05b}:c:\users\rayan\source\repos\api rest de videos juegos\api rest de videos juegos\program.cs
+i:{43327862-73ce-475e-976b-e2a061927095}:c:\users\rayan\source\repos\api rest de videos juegos\tarea en segundo plano\program.cs
+++No se detectaron dependencias de servicio
+i:{0f84274d-4dcf-4a71-b8bf-5c7362d4a05b}:>1668
+i:{43327862-73ce-475e-976b-e2a061927095}:>1502
+++Analizadores
+i:{0f84274d-4dcf-4a71-b8bf-5c7362d4a05b}:analizadores
+i:{87805306-b48a-4a2b-b47a-f795e1af988a}:analizadores
+i:{4c73a147-3b51-4c17-a8fa-b79ed8494e04}:analizadores
+i:{dd7d8009-4a53-4c98-9f0f-b8a427d9a9d4}:analizadores
+i:{43327862-73ce-475e-976b-e2a061927095}:analizadores
+i:{ad5934eb-2f5d-4dde-9f0a-7b03de399406}:analizadores
+++Marcos de trabajo
+i:{0f84274d-4dcf-4a71-b8bf-5c7362d4a05b}:marcos de trabajo
+i:{87805306-b48a-4a2b-b47a-f795e1af988a}:marcos de trabajo
+i:{4c73a147-3b51-4c17-a8fa-b79ed8494e04}:marcos de trabajo
+i:{dd7d8009-4a53-4c98-9f0f-b8a427d9a9d4}:marcos de trabajo
+i:{43327862-73ce-475e-976b-e2a061927095}:marcos de trabajo
+i:{ad5934eb-2f5d-4dde-9f0a-7b03de399406}:marcos de trabajo
+++Paquetes
+i:{0f84274d-4dcf-4a71-b8bf-5c7362d4a05b}:paquetes
+i:{87805306-b48a-4a2b-b47a-f795e1af988a}:paquetes
+i:{4c73a147-3b51-4c17-a8fa-b79ed8494e04}:paquetes
+i:{dd7d8009-4a53-4c98-9f0f-b8a427d9a9d4}:paquetes
+i:{43327862-73ce-475e-976b-e2a061927095}:paquetes
+i:{ad5934eb-2f5d-4dde-9f0a-7b03de399406}:paquetes
+++Proyectos
+i:{0f84274d-4dcf-4a71-b8bf-5c7362d4a05b}:proyectos
+i:{4c73a147-3b51-4c17-a8fa-b79ed8494e04}:proyectos
+i:{dd7d8009-4a53-4c98-9f0f-b8a427d9a9d4}:proyectos
+i:{43327862-73ce-475e-976b-e2a061927095}:proyectos
+i:{ad5934eb-2f5d-4dde-9f0a-7b03de399406}:proyectos
+++launchSettings.json
+i:{0f84274d-4dcf-4a71-b8bf-5c7362d4a05b}:c:\users\rayan\source\repos\api rest de videos juegos\api rest de videos juegos\properties\launchsettings.json
+i:{43327862-73ce-475e-976b-e2a061927095}:c:\users\rayan\source\repos\api rest de videos juegos\tarea en segundo plano\properties\launchsettings.json
+++appsettings.Development.json
+i:{0f84274d-4dcf-4a71-b8bf-5c7362d4a05b}:c:\users\rayan\source\repos\api rest de videos juegos\api rest de videos juegos\appsettings.development.json
+i:{43327862-73ce-475e-976b-e2a061927095}:c:\users\rayan\source\repos\api rest de videos juegos\tarea en segundo plano\appsettings.development.json
+++Microsoft.AspNetCore.Analyzers
+i:{0f84274d-4dcf-4a71-b8bf-5c7362d4a05b}:c:\program files\dotnet\sdk\6.0.311\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+++Microsoft.AspNetCore.App.Analyzers
+i:{0f84274d-4dcf-4a71-b8bf-5c7362d4a05b}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.16\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+i:{43327862-73ce-475e-976b-e2a061927095}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.16\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+i:{ad5934eb-2f5d-4dde-9f0a-7b03de399406}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.16\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+++Microsoft.AspNetCore.App.CodeFixes
+i:{0f84274d-4dcf-4a71-b8bf-5c7362d4a05b}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.16\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+i:{43327862-73ce-475e-976b-e2a061927095}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.16\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+i:{ad5934eb-2f5d-4dde-9f0a-7b03de399406}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.16\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+++Microsoft.AspNetCore.Components.Analyzers
+i:{0f84274d-4dcf-4a71-b8bf-5c7362d4a05b}:c:\program files\dotnet\sdk\6.0.311\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+++Microsoft.AspNetCore.Mvc.Analyzers
+i:{0f84274d-4dcf-4a71-b8bf-5c7362d4a05b}:c:\program files\dotnet\sdk\6.0.311\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+++Microsoft.AspNetCore.Razor.SourceGenerator.Tooling.Internal
+i:{0f84274d-4dcf-4a71-b8bf-5c7362d4a05b}:c:\program files\dotnet\sdk\6.0.311\sdks\microsoft.net.sdk.razor\source-generators\microsoft.aspnetcore.razor.sourcegenerator.tooling.internal.dll
+++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
+i:{0f84274d-4dcf-4a71-b8bf-5c7362d4a05b}:c:\program files\dotnet\sdk\6.0.311\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{87805306-b48a-4a2b-b47a-f795e1af988a}:c:\program files\dotnet\sdk\6.0.311\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{4c73a147-3b51-4c17-a8fa-b79ed8494e04}:c:\program files\dotnet\sdk\6.0.311\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{dd7d8009-4a53-4c98-9f0f-b8a427d9a9d4}:c:\program files\dotnet\sdk\6.0.311\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{43327862-73ce-475e-976b-e2a061927095}:c:\program files\dotnet\sdk\6.0.311\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{ad5934eb-2f5d-4dde-9f0a-7b03de399406}:c:\program files\dotnet\sdk\6.0.311\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+++Microsoft.CodeAnalysis.NetAnalyzers
+i:{0f84274d-4dcf-4a71-b8bf-5c7362d4a05b}:c:\program files\dotnet\sdk\6.0.311\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{87805306-b48a-4a2b-b47a-f795e1af988a}:c:\program files\dotnet\sdk\6.0.311\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{4c73a147-3b51-4c17-a8fa-b79ed8494e04}:c:\program files\dotnet\sdk\6.0.311\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{dd7d8009-4a53-4c98-9f0f-b8a427d9a9d4}:c:\program files\dotnet\sdk\6.0.311\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{43327862-73ce-475e-976b-e2a061927095}:c:\program files\dotnet\sdk\6.0.311\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{ad5934eb-2f5d-4dde-9f0a-7b03de399406}:c:\program files\dotnet\sdk\6.0.311\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+++Microsoft.EntityFrameworkCore.Analyzers
+i:{0f84274d-4dcf-4a71-b8bf-5c7362d4a05b}:c:\users\rayan\.nuget\packages\microsoft.entityframeworkcore.analyzers\7.0.20\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{87805306-b48a-4a2b-b47a-f795e1af988a}:c:\users\rayan\.nuget\packages\microsoft.entityframeworkcore.analyzers\7.0.20\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{4c73a147-3b51-4c17-a8fa-b79ed8494e04}:c:\users\rayan\.nuget\packages\microsoft.entityframeworkcore.analyzers\7.0.20\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{dd7d8009-4a53-4c98-9f0f-b8a427d9a9d4}:c:\users\rayan\.nuget\packages\microsoft.entityframeworkcore.analyzers\7.0.20\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{43327862-73ce-475e-976b-e2a061927095}:c:\users\rayan\.nuget\packages\microsoft.entityframeworkcore.analyzers\7.0.20\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{ad5934eb-2f5d-4dde-9f0a-7b03de399406}:c:\users\rayan\.nuget\packages\microsoft.entityframeworkcore.analyzers\7.0.20\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+++Microsoft.Extensions.Logging.Generators
+i:{0f84274d-4dcf-4a71-b8bf-5c7362d4a05b}:c:\users\rayan\.nuget\packages\microsoft.extensions.logging.abstractions\7.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{87805306-b48a-4a2b-b47a-f795e1af988a}:c:\users\rayan\.nuget\packages\microsoft.extensions.logging.abstractions\7.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{4c73a147-3b51-4c17-a8fa-b79ed8494e04}:c:\users\rayan\.nuget\packages\microsoft.extensions.logging.abstractions\7.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{dd7d8009-4a53-4c98-9f0f-b8a427d9a9d4}:c:\users\rayan\.nuget\packages\microsoft.extensions.logging.abstractions\7.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{43327862-73ce-475e-976b-e2a061927095}:c:\users\rayan\.nuget\packages\microsoft.extensions.logging.abstractions\7.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{ad5934eb-2f5d-4dde-9f0a-7b03de399406}:c:\users\rayan\.nuget\packages\microsoft.extensions.logging.abstractions\7.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+++Microsoft.NET.Sdk.Razor.SourceGenerators
+i:{0f84274d-4dcf-4a71-b8bf-5c7362d4a05b}:c:\program files\dotnet\sdk\6.0.311\sdks\microsoft.net.sdk.razor\source-generators\microsoft.net.sdk.razor.sourcegenerators.dll
+++System.Text.Json.SourceGeneration
+i:{0f84274d-4dcf-4a71-b8bf-5c7362d4a05b}:c:\users\rayan\.nuget\packages\system.text.json\7.0.0\analyzers\dotnet\roslyn4.0\cs\system.text.json.sourcegeneration.dll
+i:{87805306-b48a-4a2b-b47a-f795e1af988a}:c:\users\rayan\.nuget\packages\system.text.json\7.0.0\analyzers\dotnet\roslyn4.0\cs\system.text.json.sourcegeneration.dll
+i:{4c73a147-3b51-4c17-a8fa-b79ed8494e04}:c:\users\rayan\.nuget\packages\system.text.json\7.0.0\analyzers\dotnet\roslyn4.0\cs\system.text.json.sourcegeneration.dll
+i:{dd7d8009-4a53-4c98-9f0f-b8a427d9a9d4}:c:\users\rayan\.nuget\packages\system.text.json\7.0.0\analyzers\dotnet\roslyn4.0\cs\system.text.json.sourcegeneration.dll
+i:{43327862-73ce-475e-976b-e2a061927095}:c:\users\rayan\.nuget\packages\system.text.json\7.0.0\analyzers\dotnet\roslyn4.0\cs\system.text.json.sourcegeneration.dll
+i:{ad5934eb-2f5d-4dde-9f0a-7b03de399406}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.16\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+++Microsoft.AspNetCore.App
+i:{0f84274d-4dcf-4a71-b8bf-5c7362d4a05b}:c:\users\rayan\source\repos\api rest de videos juegos\api rest de videos juegos\microsoft.aspnetcore.app
+++Microsoft.NETCore.App
+i:{0f84274d-4dcf-4a71-b8bf-5c7362d4a05b}:c:\users\rayan\source\repos\api rest de videos juegos\api rest de videos juegos\microsoft.netcore.app
+i:{87805306-b48a-4a2b-b47a-f795e1af988a}:c:\users\rayan\source\repos\api rest de videos juegos\dominio\microsoft.netcore.app
+i:{4c73a147-3b51-4c17-a8fa-b79ed8494e04}:c:\users\rayan\source\repos\api rest de videos juegos\infraestructura\microsoft.netcore.app
+i:{dd7d8009-4a53-4c98-9f0f-b8a427d9a9d4}:c:\users\rayan\source\repos\api rest de videos juegos\aplicacion\microsoft.netcore.app
+i:{43327862-73ce-475e-976b-e2a061927095}:c:\users\rayan\source\repos\api rest de videos juegos\tarea en segundo plano\microsoft.netcore.app
+i:{ad5934eb-2f5d-4dde-9f0a-7b03de399406}:c:\users\rayan\source\repos\api rest de videos juegos\testing\microsoft.netcore.app
+++AutoMapper (13.0.1)
+i:{0f84274d-4dcf-4a71-b8bf-5c7362d4a05b}:>1728
+i:{87805306-b48a-4a2b-b47a-f795e1af988a}:>1692
+i:{4c73a147-3b51-4c17-a8fa-b79ed8494e04}:>1785
+i:{dd7d8009-4a53-4c98-9f0f-b8a427d9a9d4}:>1757
+i:{43327862-73ce-475e-976b-e2a061927095}:>1699
+++Microsoft.EntityFrameworkCore (7.0.20)
+i:{0f84274d-4dcf-4a71-b8bf-5c7362d4a05b}:>1725
+i:{87805306-b48a-4a2b-b47a-f795e1af988a}:>1690
+i:{4c73a147-3b51-4c17-a8fa-b79ed8494e04}:>1782
+i:{dd7d8009-4a53-4c98-9f0f-b8a427d9a9d4}:>1750
+i:{43327862-73ce-475e-976b-e2a061927095}:>1696
+++Microsoft.EntityFrameworkCore.SqlServer (7.0.20)
+i:{0f84274d-4dcf-4a71-b8bf-5c7362d4a05b}:>1726
+i:{87805306-b48a-4a2b-b47a-f795e1af988a}:>1691
+i:{4c73a147-3b51-4c17-a8fa-b79ed8494e04}:>1783
+i:{dd7d8009-4a53-4c98-9f0f-b8a427d9a9d4}:>1752
+++Microsoft.EntityFrameworkCore.Tools (7.0.20)
+i:{0f84274d-4dcf-4a71-b8bf-5c7362d4a05b}:>1730
+i:{87805306-b48a-4a2b-b47a-f795e1af988a}:>1694
+i:{4c73a147-3b51-4c17-a8fa-b79ed8494e04}:>1787
+i:{dd7d8009-4a53-4c98-9f0f-b8a427d9a9d4}:>1762
+i:{43327862-73ce-475e-976b-e2a061927095}:>1701
+++Npgsql.EntityFrameworkCore.PostgreSQL (7.0.18)
+i:{0f84274d-4dcf-4a71-b8bf-5c7362d4a05b}:>1729
+i:{87805306-b48a-4a2b-b47a-f795e1af988a}:>1693
+i:{4c73a147-3b51-4c17-a8fa-b79ed8494e04}:>1786
+i:{dd7d8009-4a53-4c98-9f0f-b8a427d9a9d4}:>1760
+i:{43327862-73ce-475e-976b-e2a061927095}:>1700
+++Swashbuckle.AspNetCore (6.2.3)
+i:{0f84274d-4dcf-4a71-b8bf-5c7362d4a05b}:>1727
+++Infraestructura
+i:{0f84274d-4dcf-4a71-b8bf-5c7362d4a05b}:c:\users\rayan\source\repos\api rest de videos juegos\infraestructura\bin\debug\net6.0\infraestructura.dll
+i:{00000000-0000-0000-0000-000000000000}:Infraestructura
+i:{43327862-73ce-475e-976b-e2a061927095}:c:\users\rayan\source\repos\api rest de videos juegos\infraestructura\bin\debug\net6.0\infraestructura.dll
+i:{ad5934eb-2f5d-4dde-9f0a-7b03de399406}:c:\users\rayan\source\repos\api rest de videos juegos\infraestructura\bin\debug\net6.0\infraestructura.dll
+++Dominio
+i:{00000000-0000-0000-0000-000000000000}:Dominio
+i:{dd7d8009-4a53-4c98-9f0f-b8a427d9a9d4}:c:\users\rayan\source\repos\api rest de videos juegos\dominio\bin\debug\net6.0\dominio.dll
+i:{43327862-73ce-475e-976b-e2a061927095}:c:\users\rayan\source\repos\api rest de videos juegos\dominio\bin\debug\net6.0\dominio.dll
+i:{ad5934eb-2f5d-4dde-9f0a-7b03de399406}:c:\users\rayan\source\repos\api rest de videos juegos\dominio\bin\debug\net6.0\dominio.dll
+++Entidades
+i:{87805306-b48a-4a2b-b47a-f795e1af988a}:c:\users\rayan\source\repos\api rest de videos juegos\dominio\entidades\
+++Clasificacion.cs
+i:{87805306-b48a-4a2b-b47a-f795e1af988a}:c:\users\rayan\source\repos\api rest de videos juegos\dominio\entidades\clasificacion.cs
+++Genero.cs
+i:{87805306-b48a-4a2b-b47a-f795e1af988a}:c:\users\rayan\source\repos\api rest de videos juegos\dominio\entidades\genero.cs
+++Idioma.cs
+i:{87805306-b48a-4a2b-b47a-f795e1af988a}:c:\users\rayan\source\repos\api rest de videos juegos\dominio\entidades\idioma.cs
+++Imagen.cs
+i:{87805306-b48a-4a2b-b47a-f795e1af988a}:c:\users\rayan\source\repos\api rest de videos juegos\dominio\entidades\imagen.cs
+++Juego.cs
+i:{87805306-b48a-4a2b-b47a-f795e1af988a}:c:\users\rayan\source\repos\api rest de videos juegos\dominio\entidades\juego.cs
+++JuegoJsonModel.cs
+i:{87805306-b48a-4a2b-b47a-f795e1af988a}:c:\users\rayan\source\repos\api rest de videos juegos\dominio\entidades\juegojsonmodel.cs
+++Plataforma.cs
+i:{87805306-b48a-4a2b-b47a-f795e1af988a}:c:\users\rayan\source\repos\api rest de videos juegos\dominio\entidades\plataforma.cs
+++Usuario.cs
+i:{87805306-b48a-4a2b-b47a-f795e1af988a}:c:\users\rayan\source\repos\api rest de videos juegos\dominio\entidades\usuario.cs
+++Video.cs
+i:{87805306-b48a-4a2b-b47a-f795e1af988a}:c:\users\rayan\source\repos\api rest de videos juegos\dominio\entidades\video.cs
+++IRepositorios
+i:{87805306-b48a-4a2b-b47a-f795e1af988a}:c:\users\rayan\source\repos\api rest de videos juegos\dominio\irepositorios\
+++IClasificacionRepository.cs
+i:{87805306-b48a-4a2b-b47a-f795e1af988a}:c:\users\rayan\source\repos\api rest de videos juegos\dominio\irepositorios\iclasificacionrepository.cs
+++IGeneroRepository.cs
+i:{87805306-b48a-4a2b-b47a-f795e1af988a}:c:\users\rayan\source\repos\api rest de videos juegos\dominio\irepositorios\igenerorepository.cs
+++IIdiomaRepository.cs
+i:{87805306-b48a-4a2b-b47a-f795e1af988a}:c:\users\rayan\source\repos\api rest de videos juegos\dominio\irepositorios\iidiomarepository.cs
+++IJuegoRepository.cs
+i:{87805306-b48a-4a2b-b47a-f795e1af988a}:c:\users\rayan\source\repos\api rest de videos juegos\dominio\irepositorios\ijuegorepository.cs
+++IPlataformaRepository.cs
+i:{87805306-b48a-4a2b-b47a-f795e1af988a}:c:\users\rayan\source\repos\api rest de videos juegos\dominio\irepositorios\iplataformarepository.cs
+++IUsuarioRepository.cs
+i:{87805306-b48a-4a2b-b47a-f795e1af988a}:c:\users\rayan\source\repos\api rest de videos juegos\dominio\irepositorios\iusuariorepository.cs
+++Migrations
+i:{4c73a147-3b51-4c17-a8fa-b79ed8494e04}:c:\users\rayan\source\repos\api rest de videos juegos\infraestructura\migrations\
+++Repositorios
+i:{4c73a147-3b51-4c17-a8fa-b79ed8494e04}:c:\users\rayan\source\repos\api rest de videos juegos\infraestructura\repositorios\
+++ClasificacionRepository.cs
+i:{4c73a147-3b51-4c17-a8fa-b79ed8494e04}:c:\users\rayan\source\repos\api rest de videos juegos\infraestructura\repositorios\clasificacionrepository.cs
+++GeneroRepository.cs
+i:{4c73a147-3b51-4c17-a8fa-b79ed8494e04}:c:\users\rayan\source\repos\api rest de videos juegos\infraestructura\repositorios\generorepository.cs
+++IdiomaRepository.cs
+i:{4c73a147-3b51-4c17-a8fa-b79ed8494e04}:c:\users\rayan\source\repos\api rest de videos juegos\infraestructura\repositorios\idiomarepository.cs
+++JuegoRepositorio.cs
+i:{4c73a147-3b51-4c17-a8fa-b79ed8494e04}:c:\users\rayan\source\repos\api rest de videos juegos\infraestructura\repositorios\juegorepositorio.cs
+++PlataformaRepository.cs
+i:{4c73a147-3b51-4c17-a8fa-b79ed8494e04}:c:\users\rayan\source\repos\api rest de videos juegos\infraestructura\repositorios\plataformarepository.cs
+++UsuarioRepository.cs
+i:{4c73a147-3b51-4c17-a8fa-b79ed8494e04}:c:\users\rayan\source\repos\api rest de videos juegos\infraestructura\repositorios\usuariorepository.cs
+++ApplicationDbContext.cs
+i:{4c73a147-3b51-4c17-a8fa-b79ed8494e04}:c:\users\rayan\source\repos\api rest de videos juegos\infraestructura\applicationdbcontext.cs
+++20241103173032_InitialCreate.cs
+i:{4c73a147-3b51-4c17-a8fa-b79ed8494e04}:c:\users\rayan\source\repos\api rest de videos juegos\infraestructura\migrations\20241103173032_initialcreate.cs
+++20241129202034_CreateUser.cs
+i:{4c73a147-3b51-4c17-a8fa-b79ed8494e04}:c:\users\rayan\source\repos\api rest de videos juegos\infraestructura\migrations\20241129202034_createuser.cs
+++ApplicationDbContextModelSnapshot.cs
+i:{4c73a147-3b51-4c17-a8fa-b79ed8494e04}:c:\users\rayan\source\repos\api rest de videos juegos\infraestructura\migrations\applicationdbcontextmodelsnapshot.cs
+++Newtonsoft.Json (13.0.3)
+i:{4c73a147-3b51-4c17-a8fa-b79ed8494e04}:>1784
+i:{dd7d8009-4a53-4c98-9f0f-b8a427d9a9d4}:>1754
+i:{43327862-73ce-475e-976b-e2a061927095}:>1698
+++Aplicacion
+i:{4c73a147-3b51-4c17-a8fa-b79ed8494e04}:c:\users\rayan\source\repos\api rest de videos juegos\aplicacion\bin\debug\net6.0\aplicacion.dll
+i:{00000000-0000-0000-0000-000000000000}:Aplicacion
+i:{43327862-73ce-475e-976b-e2a061927095}:c:\users\rayan\source\repos\api rest de videos juegos\aplicacion\bin\debug\net6.0\aplicacion.dll
+i:{ad5934eb-2f5d-4dde-9f0a-7b03de399406}:c:\users\rayan\source\repos\api rest de videos juegos\aplicacion\bin\debug\net6.0\aplicacion.dll
+++20241103173032_InitialCreate.Designer.cs
+i:{4c73a147-3b51-4c17-a8fa-b79ed8494e04}:c:\users\rayan\source\repos\api rest de videos juegos\infraestructura\migrations\20241103173032_initialcreate.designer.cs
+++20241129202034_CreateUser.Designer.cs
+i:{4c73a147-3b51-4c17-a8fa-b79ed8494e04}:c:\users\rayan\source\repos\api rest de videos juegos\infraestructura\migrations\20241129202034_createuser.designer.cs
+++DTOs
+i:{dd7d8009-4a53-4c98-9f0f-b8a427d9a9d4}:c:\users\rayan\source\repos\api rest de videos juegos\aplicacion\dtos\
+++ClasificacionDTO.cs
+i:{dd7d8009-4a53-4c98-9f0f-b8a427d9a9d4}:c:\users\rayan\source\repos\api rest de videos juegos\aplicacion\dtos\clasificaciondto.cs
+++CreateJuegoDTO.cs
+i:{dd7d8009-4a53-4c98-9f0f-b8a427d9a9d4}:c:\users\rayan\source\repos\api rest de videos juegos\aplicacion\dtos\createjuegodto.cs
+++FiltroJuegosDTO.cs
+i:{dd7d8009-4a53-4c98-9f0f-b8a427d9a9d4}:c:\users\rayan\source\repos\api rest de videos juegos\aplicacion\dtos\filtrojuegosdto.cs
+++GeneroDTO.cs
+i:{dd7d8009-4a53-4c98-9f0f-b8a427d9a9d4}:c:\users\rayan\source\repos\api rest de videos juegos\aplicacion\dtos\generodto.cs
+++IdiomaDTO.cs
+i:{dd7d8009-4a53-4c98-9f0f-b8a427d9a9d4}:c:\users\rayan\source\repos\api rest de videos juegos\aplicacion\dtos\idiomadto.cs
+++ImagenDto.cs
+i:{dd7d8009-4a53-4c98-9f0f-b8a427d9a9d4}:c:\users\rayan\source\repos\api rest de videos juegos\aplicacion\dtos\imagendto.cs
+++JuegoDTO.cs
+i:{dd7d8009-4a53-4c98-9f0f-b8a427d9a9d4}:c:\users\rayan\source\repos\api rest de videos juegos\aplicacion\dtos\juegodto.cs
+++LoginUsuarioDTO.cs
+i:{dd7d8009-4a53-4c98-9f0f-b8a427d9a9d4}:c:\users\rayan\source\repos\api rest de videos juegos\aplicacion\dtos\loginusuariodto.cs
+++PlataformaDTO.cs
+i:{dd7d8009-4a53-4c98-9f0f-b8a427d9a9d4}:c:\users\rayan\source\repos\api rest de videos juegos\aplicacion\dtos\plataformadto.cs
+++RecuperarContrasenaDTO.cs
+i:{dd7d8009-4a53-4c98-9f0f-b8a427d9a9d4}:c:\users\rayan\source\repos\api rest de videos juegos\aplicacion\dtos\recuperarcontrasenadto.cs
+++RegistrarUsuarioDTO.cs
+i:{dd7d8009-4a53-4c98-9f0f-b8a427d9a9d4}:c:\users\rayan\source\repos\api rest de videos juegos\aplicacion\dtos\registrarusuariodto.cs
+++RestablecerContrasenaDTO.cs
+i:{dd7d8009-4a53-4c98-9f0f-b8a427d9a9d4}:c:\users\rayan\source\repos\api rest de videos juegos\aplicacion\dtos\restablecercontrasenadto.cs
+++VideoDTO.cs
+i:{dd7d8009-4a53-4c98-9f0f-b8a427d9a9d4}:c:\users\rayan\source\repos\api rest de videos juegos\aplicacion\dtos\videodto.cs
+++IServicios
+i:{dd7d8009-4a53-4c98-9f0f-b8a427d9a9d4}:c:\users\rayan\source\repos\api rest de videos juegos\aplicacion\iservicios\
+++IClasificacionService.cs
+i:{dd7d8009-4a53-4c98-9f0f-b8a427d9a9d4}:c:\users\rayan\source\repos\api rest de videos juegos\aplicacion\iservicios\iclasificacionservice.cs
+++IGeneroService.cs
+i:{dd7d8009-4a53-4c98-9f0f-b8a427d9a9d4}:c:\users\rayan\source\repos\api rest de videos juegos\aplicacion\iservicios\igeneroservice.cs
+++IIdiomaService.cs
+i:{dd7d8009-4a53-4c98-9f0f-b8a427d9a9d4}:c:\users\rayan\source\repos\api rest de videos juegos\aplicacion\iservicios\iidiomaservice.cs
+++IJuegoService.cs
+i:{dd7d8009-4a53-4c98-9f0f-b8a427d9a9d4}:c:\users\rayan\source\repos\api rest de videos juegos\aplicacion\iservicios\ijuegoservice.cs
+++IPlataformaService.cs
+i:{dd7d8009-4a53-4c98-9f0f-b8a427d9a9d4}:c:\users\rayan\source\repos\api rest de videos juegos\aplicacion\iservicios\iplataformaservice.cs
+++IUsuarioService.cs
+i:{dd7d8009-4a53-4c98-9f0f-b8a427d9a9d4}:c:\users\rayan\source\repos\api rest de videos juegos\aplicacion\iservicios\iusuarioservice.cs
+++Servicio
+i:{dd7d8009-4a53-4c98-9f0f-b8a427d9a9d4}:c:\users\rayan\source\repos\api rest de videos juegos\aplicacion\servicio\
+++ClasificacionService.cs
+i:{dd7d8009-4a53-4c98-9f0f-b8a427d9a9d4}:c:\users\rayan\source\repos\api rest de videos juegos\aplicacion\servicio\clasificacionservice.cs
+++GeneroService.cs
+i:{dd7d8009-4a53-4c98-9f0f-b8a427d9a9d4}:c:\users\rayan\source\repos\api rest de videos juegos\aplicacion\servicio\generoservice.cs
+++IdiomaService.cs
+i:{dd7d8009-4a53-4c98-9f0f-b8a427d9a9d4}:c:\users\rayan\source\repos\api rest de videos juegos\aplicacion\servicio\idiomaservice.cs
+++JuegoService.cs
+i:{dd7d8009-4a53-4c98-9f0f-b8a427d9a9d4}:c:\users\rayan\source\repos\api rest de videos juegos\aplicacion\servicio\juegoservice.cs
+++PlataformaService.cs
+i:{dd7d8009-4a53-4c98-9f0f-b8a427d9a9d4}:c:\users\rayan\source\repos\api rest de videos juegos\aplicacion\servicio\plataformaservice.cs
+++UsuarioService.cs
+i:{dd7d8009-4a53-4c98-9f0f-b8a427d9a9d4}:c:\users\rayan\source\repos\api rest de videos juegos\aplicacion\servicio\usuarioservice.cs
+++Tarea en Segundo Plano
+i:{00000000-0000-0000-0000-000000000000}:Tarea en Segundo Plano
+++Data
+i:{43327862-73ce-475e-976b-e2a061927095}:c:\users\rayan\source\repos\api rest de videos juegos\tarea en segundo plano\data\
+++Worker.cs
+i:{43327862-73ce-475e-976b-e2a061927095}:c:\users\rayan\source\repos\api rest de videos juegos\tarea en segundo plano\worker.cs
+++DataGame.json
+i:{43327862-73ce-475e-976b-e2a061927095}:c:\users\rayan\source\repos\api rest de videos juegos\tarea en segundo plano\data\datagame.json
+++DataSeeder.cs
+i:{43327862-73ce-475e-976b-e2a061927095}:c:\users\rayan\source\repos\api rest de videos juegos\tarea en segundo plano\data\dataseeder.cs
+++xunit.analyzers
+i:{43327862-73ce-475e-976b-e2a061927095}:c:\users\rayan\.nuget\packages\xunit.analyzers\0.10.0\analyzers\dotnet\cs\xunit.analyzers.dll
+i:{ad5934eb-2f5d-4dde-9f0a-7b03de399406}:c:\users\rayan\.nuget\packages\xunit.analyzers\0.10.0\analyzers\dotnet\cs\xunit.analyzers.dll
+++Microsoft.Extensions.Hosting (6.0.1)
+i:{43327862-73ce-475e-976b-e2a061927095}:>1697
+++Testing
+i:{43327862-73ce-475e-976b-e2a061927095}:c:\users\rayan\source\repos\api rest de videos juegos\testing\bin\debug\net6.0\testing.dll
+i:{00000000-0000-0000-0000-000000000000}:Testing
+++RepositoryTests
+i:{ad5934eb-2f5d-4dde-9f0a-7b03de399406}:c:\users\rayan\source\repos\api rest de videos juegos\testing\repositorytests\
+++ServiceTests
+i:{ad5934eb-2f5d-4dde-9f0a-7b03de399406}:c:\users\rayan\source\repos\api rest de videos juegos\testing\servicetests\
+++Usings.cs
+i:{ad5934eb-2f5d-4dde-9f0a-7b03de399406}:c:\users\rayan\source\repos\api rest de videos juegos\testing\usings.cs
+++ClasificacionControllerTests.cs
+i:{ad5934eb-2f5d-4dde-9f0a-7b03de399406}:c:\users\rayan\source\repos\api rest de videos juegos\testing\controllers\clasificacioncontrollertests.cs
+++GeneroControllerTests.cs
+i:{ad5934eb-2f5d-4dde-9f0a-7b03de399406}:c:\users\rayan\source\repos\api rest de videos juegos\testing\controllers\generocontrollertests.cs
+++IdiomaControllerTests.cs
+i:{ad5934eb-2f5d-4dde-9f0a-7b03de399406}:c:\users\rayan\source\repos\api rest de videos juegos\testing\controllers\idiomacontrollertests.cs
+++JuegosControllerTests.cs
+i:{ad5934eb-2f5d-4dde-9f0a-7b03de399406}:c:\users\rayan\source\repos\api rest de videos juegos\testing\controllers\juegoscontrollertests.cs
+++PlataformaControllerTests.cs
+i:{ad5934eb-2f5d-4dde-9f0a-7b03de399406}:c:\users\rayan\source\repos\api rest de videos juegos\testing\controllers\plataformacontrollertests.cs
+++ClasificacionRepositoryTests.cs
+i:{ad5934eb-2f5d-4dde-9f0a-7b03de399406}:c:\users\rayan\source\repos\api rest de videos juegos\testing\repositorytests\clasificacionrepositorytests.cs
+++GeneroRepositoryTests.cs
+i:{ad5934eb-2f5d-4dde-9f0a-7b03de399406}:c:\users\rayan\source\repos\api rest de videos juegos\testing\repositorytests\generorepositorytests.cs
+++IdiomaRepositoryTests.cs
+i:{ad5934eb-2f5d-4dde-9f0a-7b03de399406}:c:\users\rayan\source\repos\api rest de videos juegos\testing\repositorytests\idiomarepositorytests.cs
+++JuegoRepositoryTests.cs
+i:{ad5934eb-2f5d-4dde-9f0a-7b03de399406}:c:\users\rayan\source\repos\api rest de videos juegos\testing\repositorytests\juegorepositorytests.cs
+++PlataformaRepositoryTests.cs
+i:{ad5934eb-2f5d-4dde-9f0a-7b03de399406}:c:\users\rayan\source\repos\api rest de videos juegos\testing\repositorytests\plataformarepositorytests.cs
+++ClasificacionServiceTests.cs
+i:{ad5934eb-2f5d-4dde-9f0a-7b03de399406}:c:\users\rayan\source\repos\api rest de videos juegos\testing\servicetests\clasificacionservicetests.cs
+++GeneroServiceTests.cs
+i:{ad5934eb-2f5d-4dde-9f0a-7b03de399406}:c:\users\rayan\source\repos\api rest de videos juegos\testing\servicetests\generoservicetests.cs
+++IdiomaServiceTests.cs
+i:{ad5934eb-2f5d-4dde-9f0a-7b03de399406}:c:\users\rayan\source\repos\api rest de videos juegos\testing\servicetests\idiomaservicetests.cs
+++JuegoServiceTests.cs
+i:{ad5934eb-2f5d-4dde-9f0a-7b03de399406}:c:\users\rayan\source\repos\api rest de videos juegos\testing\servicetests\juegoservicetests.cs
+++PlataformaServiceTests.cs
+i:{ad5934eb-2f5d-4dde-9f0a-7b03de399406}:c:\users\rayan\source\repos\api rest de videos juegos\testing\servicetests\plataformaservicetests.cs
+++coverlet.collector (3.1.2)
+i:{ad5934eb-2f5d-4dde-9f0a-7b03de399406}:>1767
+++Microsoft.EntityFrameworkCore.InMemory (7.0.20)
+i:{ad5934eb-2f5d-4dde-9f0a-7b03de399406}:>1761
+++Microsoft.NET.Test.Sdk (17.1.0)
+i:{ad5934eb-2f5d-4dde-9f0a-7b03de399406}:>1758
+++Moq (4.20.72)
+i:{ad5934eb-2f5d-4dde-9f0a-7b03de399406}:>1765
+++xunit (2.4.1)
+i:{ad5934eb-2f5d-4dde-9f0a-7b03de399406}:>1759
+++xunit.runner.visualstudio (2.4.3)
+i:{ad5934eb-2f5d-4dde-9f0a-7b03de399406}:>1763

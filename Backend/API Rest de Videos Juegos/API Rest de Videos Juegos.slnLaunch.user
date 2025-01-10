@@ -1,0 +1,24 @@
+[
+  {
+    "Name": "Perfil de Inicio",
+    "Projects": [
+      {
+        "Path": "API Rest de Videos Juegos.csproj",
+        "Action": "Start"
+      }
+    ]
+  },
+  {
+    "Name": "Perfil Secundario",
+    "Projects": [
+      {
+        "Path": "API Rest de Videos Juegos.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "..\\Tarea en Segundo Plano\\Tarea en Segundo Plano.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

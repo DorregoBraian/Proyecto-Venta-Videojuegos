@@ -1,0 +1,21 @@
+.app-container {
+  display: flex;
+  min-height: 100vh;
+  position: relative;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 100vh; /* Asegura que el contenedor cubra al menos la altura de la pantalla */
+  background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), /* Degradado negro semitransparente */
+    url("../../public/Fondo.png"); /* Imagen de fondo */
+  background-size: cover; /* La imagen de fondo se escala para cubrir todo el contenedor */
+  background-repeat: no-repeat; /* La imagen no se repite */
+  background-position: center center; /* La imagen se centra en el contenedor */
+  background-attachment: fixed; /* La imagen se queda fija mientras se desplaza el contenido */
+}
+
+

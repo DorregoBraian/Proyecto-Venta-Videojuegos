@@ -1,0 +1,159 @@
+.filtros {
+  display: flex;
+  justify-content: space-around;
+  margin: 2% 0% 5% 0%;
+  color: #fff;
+}
+
+.container-filter {
+  display: grid;
+  margin-top: 1.2%;
+}
+
+.container-filter input {
+  padding: 8px;
+  margin: 0% auto 2% auto;
+  width: 20%;
+  border: 1px solid #333;
+  border-radius: 5px;
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+}
+
+.filtros select {
+  padding: 8px; /*----------*/
+  border: 1px solid #333;
+  border-radius: 5px;
+  background-color: #222;
+  color: #fff;
+  border: 1px solid #ccc;
+}
+
+.lista-juegos {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 50px;
+  margin: 0% 5%;
+  justify-content: center;
+  min-height: 400px;
+}
+
+/*--------- Controles de paginación --------------*/
+
+.paginacion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  font-family: "Orbitron", sans-serif;
+  font-size: 18px;
+  color: white;
+  margin: 4% auto;
+}
+
+.paginacion .flecha {
+  background-color: transparent;
+  border: 2px solid #555;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.paginacion .flecha:hover {
+  background-color: #ff0000;
+  border-color: #ff0000;
+}
+
+.paginacion span {
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.paginacion span:hover {
+  color: #ff0000;
+}
+
+.paginacion span.activo {
+  color: #ff0000;
+  font-weight: bold;
+  border-bottom: 2px solid #ff0000;
+}
+
+/*------ filtros --------*/
+
+.custom-select {
+  position: relative;
+  width: 220px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #222;
+  cursor: pointer;
+  padding: 0.2%;
+}
+
+.selected-option {
+  display: flex;
+  justify-content: center;
+  margin: 3%;
+}
+
+.selected-option img {
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+}
+
+.options-list {
+  display: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  max-height: 300px;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #222;
+  z-index: 1000;
+}
+
+.options-list li {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.options-list li img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.options-list li:hover {
+  background-color: rgb(0, 120, 215);
+  border: 1px solid white;
+}
+
+.custom-select:hover .options-list {
+  display: block;
+}
+
+@media (width < 1500px) {
+  .lista-juegos {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .filtros {
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(2, 0);
+    gap: 50px;
+  }
+}

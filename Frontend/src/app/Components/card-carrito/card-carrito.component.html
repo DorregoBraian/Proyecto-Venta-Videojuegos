@@ -1,0 +1,22 @@
+<div class="card-carrito">
+    <!-- Imagen del juego -->
+    <a (click)="navegarAlDetalle(id)"><img [src]="portada" alt="Imagen del juego" class="card-imagen" /></a>
+
+    <!-- Detalles del juego -->
+    <div class="card-detalles">
+        <a (click)="navegarAlDetalle(id)"><h2>{{ titulo }}</h2></a>
+        <button class="eliminar-btn" (click)="eliminarProducto(id)">Eliminar</button>
+    </div>
+
+    <!-- Controles de cantidad y precio -->
+    <div class="card-cantidad-precio">
+        <div class="cantidad-controles">
+            <button (click)="decrementarCantidad()">-</button>
+            <input type="number" [value]="cantidad" readonly />
+            <button (click)="incrementarCantidad()">+</button>
+        </div>
+        <div class="precio-unitario">
+            {{ precio | currency:'USD':'symbol':'1.0-0' }}
+        </div>
+    </div>
+</div>

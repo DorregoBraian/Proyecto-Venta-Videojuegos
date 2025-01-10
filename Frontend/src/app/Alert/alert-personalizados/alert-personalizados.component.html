@@ -1,0 +1,8 @@
+<div class="custom-alert-container">
+    <img [src]="data.imageUrl" alt="Gif" class="custom-alert-image" />
+    <div class="custom-alert-content">
+        <h2>{{ data.title }}</h2>
+        <p>{{ data.message }}</p>
+        <button mat-button (click)="closeDialog()">Aceptar</button>
+    </div>
+</div>

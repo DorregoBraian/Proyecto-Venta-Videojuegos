@@ -1,0 +1,24 @@
+/* You can add global styles to this file, and also import other style files */
+
+@font-face {
+  font-family: "Barlow-Black";
+  src: url("./app/Servicios/Fuentes/Barlow/Barlow-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Teko-Light";
+  src: url("./app/Servicios/Fuentes/Teko/Teko-Light.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Teko-Bold";
+  src: url("./app/Servicios/Fuentes/Teko/Teko-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; background-color: black;}
+
+

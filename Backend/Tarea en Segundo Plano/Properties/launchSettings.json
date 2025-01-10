@@ -1,0 +1,11 @@
+﻿{
+  "profiles": {
+    "Tarea_en_Segundo_Plano": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

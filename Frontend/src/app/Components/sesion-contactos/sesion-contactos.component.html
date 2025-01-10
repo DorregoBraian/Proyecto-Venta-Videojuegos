@@ -1,0 +1,35 @@
+<section class="contact-section">
+    <h1>Contactenos</h1>
+    <form class="contact-form" (ngSubmit)="sendEmail()">
+        <div class="input-group">
+            <input type="text" name="name" placeholder="Nombre" required [(ngModel)]="nombre">
+            <input type="text" name="asunto" placeholder="Asunto" required [(ngModel)]="asunto">
+            <input type="email" name="email" placeholder="Email" required [(ngModel)]="correo">
+            <input type="tel" name="phone" placeholder="Teléfono" required [(ngModel)]="telefono">
+        </div>
+        <textarea placeholder="Mensaje" name="message" rows="8" required [(ngModel)]="mensaje"></textarea>
+        <div class="button-group">
+            <button type="submit">Enviar</button>
+            <button type="reset">Rehacer</button>
+            <button type="button" (click)="cancelar()">Cancelar</button>
+        </div>
+    </form>
+</section>
+<section class="info-cards-container">
+    <div class="info-card">
+        <img src="Iconos/Telefono-icono.png" alt="Teléfono">
+        <h3>Teléfono</h3>
+        <p>+54 11 1234-5678</p>
+        <p>+54 11 8765-4321</p>
+    </div>
+    <div class="info-card">
+        <img src="Iconos/Geo.png" alt="Localización">
+        <h3>Localización</h3>
+        <p>Buenos Aires, Argentina</p>
+    </div>
+    <div class="info-card">
+        <img src="Iconos/Email-icono.png" alt="Email">
+        <h3>Email</h3>
+        <p>contacto&#64;juegospagina.com</p>
+    </div>
+</section>

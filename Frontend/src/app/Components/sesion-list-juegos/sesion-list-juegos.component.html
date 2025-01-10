@@ -1,0 +1,99 @@
+<div class="container-filter">
+    <input type="text" [(ngModel)]="nombreBusqueda" (input)="buscarJuegosPorNombre()" placeholder="Buscar por nombre" />
+    <div class="filtros">
+        <!-- Filtro Genero-->
+        <div class="custom-select">
+            <div class="selected-option" (click)="toggleDropdown('genero')">
+                <img [src]="selectedGenero.imagen" alt="Genero" />
+                <span>{{ selectedGenero.nombre || "Género" }}</span>
+            </div>
+            @if(dropdownGeneroOpen){
+            <ul class="options-list">
+                @for(genero of generos;track $index){
+                <li (click)="selectOption('genero', genero)">
+                    <img [src]="genero.imagen" [alt]="genero.nombre" />
+                    {{ genero.nombre }}
+                </li>
+                }
+            </ul>
+            }
+        </div>
+        <!-- Filtro Plataforma-->
+        <div class="custom-select">
+            <div class="selected-option" (click)="toggleDropdown('plataforma')">
+                <img [src]="selectedPlataforma.imagen" alt="Plataforma" />
+                <span>{{ selectedPlataforma.nombre || "Plataforma" }}</span>
+            </div>
+            @if("dropdownPlataformaOpen"){
+            <ul class="options-list">
+                @for (plataforma of plataformas; track $index){
+                <li (click)="selectOption('plataforma', plataforma)">
+                    <img [src]="plataforma.imagen" [alt]="plataforma.nombre" />
+                    {{ plataforma.nombre }}
+                </li>
+                }
+            </ul>
+            }
+        </div>
+        <!-- Filtro Clasificaciones-->
+        <div class="custom-select">
+            <div class="selected-option" (click)="toggleDropdown('clasificacion')">
+                <img [src]="selectedClasificacion.imagen" alt="Clasificación" />
+                <span>{{ selectedClasificacion.nombre || "Clasificación" }}</span>
+            </div>
+            @if("dropdownClasificacionOpen"){
+            <ul class="options-list">
+                @for (clasificacion of clasificaciones; track $index){
+                <li (click)="selectOption('clasificacion', clasificacion)">
+                    <img [src]="clasificacion.imagen" [alt]="clasificacion.nombre" />
+                    {{ clasificacion.nombre }}
+                </li>
+                }
+            </ul>
+            }
+        </div>
+        <!-- Filtro Idioma-->
+        <div class="custom-select">
+            <div class="selected-option" (click)="toggleDropdown('idioma')">
+                <img [src]="selectedIdioma.imagen" alt="Idioma" />
+                <span>{{ selectedIdioma.nombre || "Idioma" }}</span>
+            </div>
+            @if("dropdownIdiomaOpen"){
+            <ul class="options-list">
+                @for (idioma of idiomas; track $index){
+                <li (click)="selectOption('idioma', idioma)">
+                    <img [src]="idioma.imagen" [alt]="idioma.nombre" />
+                    {{ idioma.nombre }}
+                </li>
+                }
+            </ul>
+            }
+        </div>
+    </div>
+</div>
+
+<div>
+    <div class="lista-juegos">
+        @for (juego of juegosPaginados; track juego.id){
+        <app-card-juego [id]="juego.id" [nombre]="juego.titulo" [portada]="juego.portada" [precio]="juego.precio">
+        </app-card-juego>
+        }
+    </div>
+
+    <!-- Controles de paginación -->
+    <div class="paginacion">
+        <button (click)="paginaAnterior()" [disabled]="paginaActual === 1" class="flecha">
+            &#8249;
+        </button>
+
+        @for (numero of numerosDePagina; track $index){
+        <span [class.activo]="numero === paginaActual" (click)="irAPagina(numero)">
+            {{ numero }}
+        </span>
+        }
+
+        <button (click)="paginaSiguiente()" [disabled]="paginaActual === totalPaginas" class="flecha">
+            &#8250;
+        </button>
+    </div>
+</div>

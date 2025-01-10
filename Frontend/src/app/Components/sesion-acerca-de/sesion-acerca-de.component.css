@@ -1,0 +1,103 @@
+/* Primera sección - Video */
+.video-section {
+  padding: 20px;
+  text-align: center;
+}
+
+.video-container {
+  width: 65%;
+  margin: 0 auto 20px auto;
+  border: 4px solid red;
+}
+
+.video-frame {
+  width: 100%; 
+  height: 500px;
+}
+
+.image-gallery {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  width: 65%; 
+  margin: 3% auto; 
+}
+
+.image-gallery img {
+  width: 23%; 
+  height: auto;
+  border: 2px solid red;
+  border-radius: 5px;
+}
+
+/* ------ Segunda sección -------*/
+
+.about-section {
+  display: flex;
+  justify-content: space-between;
+  width: 65%; 
+  margin: 10% auto;
+}
+
+.about-text {
+  flex: 1;
+  color: #ffffff;
+  padding-right: 20px;
+  margin-top: 5%;
+}
+
+.about-text h2 {
+  text-align: center;
+  font-family: "Teko-Light";
+  font-size: 550%;
+  margin-bottom: 20px;
+}
+
+.about-text p {
+  font-family: "Barlow-Black";
+  margin-bottom: 50px;
+  font-size: 150%;
+}
+
+.about-image {
+  flex: 1;
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+}
+
+.about-image img {
+  width: 100%;
+  height: 90%;
+}
+
+/*------ Asind Configurasion -----------*/
+
+.center-container {
+  position: relative; 
+  width: 100%; 
+  height: 100%; 
+}
+
+.left-aside,
+.right-aside {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%); 
+}
+
+.left-aside {
+  left: 0; 
+  margin-left: 2%;
+  width: 15%;
+}
+
+.right-aside {
+  right: 0; 
+}
+
+@media (width < 1900px){
+  app-aside {
+    display: none;
+  }
+}

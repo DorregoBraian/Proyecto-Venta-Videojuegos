@@ -1,0 +1,7 @@
+<div class="card-juego" (click)="verDetalles()">
+    <img [src]="portada" alt="Portada del juego" class="card-juego__imagen">
+    <div class="card-juego__contenido">
+        <h3 class="card-juego__titulo">{{ nombre }}</h3>
+        <p class="card-juego__precio">{{ precio | currency: 'USD' }}</p>
+    </div>
+</div>

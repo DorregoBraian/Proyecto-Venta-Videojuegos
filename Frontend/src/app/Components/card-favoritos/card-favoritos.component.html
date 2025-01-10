@@ -1,0 +1,28 @@
+<div class="card-favorito">
+  <div class="card-image">
+    <img [src]="portada" alt="Portada del producto">
+  </div>
+
+  <div class="card-info">
+    <h3>{{ titulo }}</h3>
+    <p class="precio">{{ precio | currency:'USD':'symbol':'1.0-0' }}</p>
+  </div>
+
+  <div class="card-gustar">
+    @if(!liked){
+      <button class="thumbs-up" (click)="like()">👍</button>
+    }@else{
+      <img src="/Favorito/Like-Favoritos.gif" alt="Like Favoritos" class="favoritos-img" (click)="reset()">
+    }
+    @if (!disliked){
+      <button class="thumbs-down" (click)="dislike()">👎</button>
+    }@else{
+      <img src="/Favorito/Dislike-Favoritos.gif" alt="Dislike Favoritos" class="favoritos-img" (click)="reset()">
+    }
+  </div>
+
+  <div class="card-botones">
+    <button class="add-to-cart" (click)="agregarAlCarrito()">Agregar al carrito</button>
+    <button class="remove" (click)="eliminarProducto(id)">Eliminar</button>
+  </div>
+</div>

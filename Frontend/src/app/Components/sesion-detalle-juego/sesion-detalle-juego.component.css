@@ -1,0 +1,47 @@
+
+.nav-detalle{
+  width: 100%;
+  z-index: 1000; 
+  padding: 1%; 
+}
+
+.nav-detalle ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  margin: 0.5% 0% 2% 0%;
+  font-family: "Barlow-Black";
+}
+
+.nav-detalle a {
+  font-size: 150%;
+  font-family: "Barlow-Black";
+  text-decoration: none;
+  color: white;
+  position: relative;
+}
+.nav-detalle a::after {
+  content: ""; 
+  position: absolute;
+  bottom: -2px; 
+  left: 0;
+  width: 0; 
+  height: 3px;
+  background-color: red; 
+}
+
+.nav-detalle a:hover::after {
+  width: 100%;
+}
+
+
+.router-container {
+  margin-top: 60px; 
+  padding: 20px;
+}
+
+.nav-icon {
+  width: 30px; 
+  height: 30px;
+  margin-bottom: 5%;
+}

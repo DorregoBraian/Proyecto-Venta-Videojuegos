@@ -1,0 +1,72 @@
+.card-carrito {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2%;
+  border: 2px solid #ccc;
+  margin-bottom: 10px;
+}
+
+.cantidad-precio {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.card-imagen {
+  width: 200px;
+  height: auto;;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.card-detalles {
+  flex-grow: 1;
+  margin-left:40px;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+}
+.card-detalles h2 {
+  margin: 1%;
+  font-size: 180%;
+  font-family: "Barlow-Black";
+}
+
+.eliminar-btn {
+  background: none;
+  border: none;
+  color: red;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.card-cantidad-precio {
+  display: flex;
+  align-items: center;
+  gap: 20px;  
+}
+
+.cantidad-controles button {
+  width: 30px;
+  height: 30px;
+  background-color: red;
+  border-radius: 3px;
+  color: white;
+}
+
+.cantidad-controles input {
+  width: 40px;
+  text-align: center;
+  border: 1px solid white;
+  border-radius: 3px;
+  background-color: #121212;
+  color: white;
+}
+
+.precio-unitario {
+  font-weight: bold;
+}

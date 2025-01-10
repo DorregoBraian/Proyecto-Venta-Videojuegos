@@ -1,0 +1,11 @@
+<div class="contenedor-carrito">
+    <div class="lista-juegos">
+        <h2>Mi Favoritos</h2>
+        <div cdkDropList [cdkDropListData]="listFavoritos" (cdkDropListDropped)="moverJuego($event)">
+            @for(item of listFavoritos; track item.id){
+                <app-card-favoritos  cdkDrag [portada]="item.portada" [titulo]="item.titulo" [precio]="item.precio" [id]="item.id">
+                </app-card-favoritos>
+            }
+        </div>
+    </div>
+</div>

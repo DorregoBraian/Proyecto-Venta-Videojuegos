@@ -1,0 +1,39 @@
+.card-juego {
+  cursor: pointer;
+  width: 100%;
+  background-color: #1c1c1c;
+  border: 2px solid #ff0000;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card-juego:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(255, 0, 0, 1);
+}
+
+.card-juego__imagen {
+  width: 100%;
+  height: 200px; 
+  object-fit:contain; 
+  background-color: #000; 
+}
+
+.card-juego__contenido {
+  padding: 15px;
+  color: #fff;
+  text-align: center;
+}
+
+.card-juego__titulo {
+  font-size: 120%;
+  font-family: "Barlow-Black";
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+.card-juego__precio {
+  font-size: 1rem;
+  color: #32cd32;
+}

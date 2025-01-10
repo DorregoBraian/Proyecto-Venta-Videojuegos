@@ -1,0 +1,106 @@
+<div class="detalle-juego">
+    <!-- Primera sección -->
+    <div class="detalle-juego__header">
+        <!-- Portada con mini carrusel debajo -->
+        <div class="detalle-juego__portada-container">
+            @if(esImagen(portada)){
+            <ng-container>
+                <img [src]="portada" alt="Portada del juego" class="detalle-juego__portada" />
+            </ng-container>
+            }
+            @else{
+            <ng-container>
+                <div class="detalle-juego__video-wrapper">
+                    <iframe [src]="portada | urlPipe" class="detalle-juego__portada" frameborder="0" 
+                    allow="autoplay; fullscreen; clipboard-write"
+                    loading="lazy"
+                    allowfullscreen></iframe>
+                </div>
+            </ng-container>
+            }
+            <!-- Mini carrusel -->
+            <div class="detalle-juego__mini-carrusel">
+                <!-- Botón Anterior -->
+                <button class="carousel-control-prev" (click)="anterior()">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <!-- Contenedor del Carrusel -->
+                <div class="carousel-images">
+                    @for(item of listCarrusel; track $index){
+                        @if(esImagen(item)){
+                        <ng-container>
+                            <img [src]="item" alt="Imagen adicional" class="detalle-juego__miniatura_imagen"
+                                (click)="actualizarPortada(item)" />
+                        </ng-container>
+                        }
+                        @else{
+                        <ng-container>
+                            <div class="detalle-juego__miniatura_video-wrapper" (click)="actualizarPortada(item)">
+                                <iframe [src]="item | urlPipe" class="detalle-juego__miniatura_video" frameborder="0"></iframe>
+                            </div>
+                        </ng-container>
+                        }
+                    }
+                </div>
+                <!-- Botón Siguiente -->
+                <button class="carousel-control-next" (click)="siguiente()">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Siguiente</span>
+                </button>
+            </div>
+        </div>
+
+        <!-- Información del juego organizada en dos columnas -->
+        <div class="detalle-juego__info">
+            <h1 class="detalle-juego__titulo">{{ juego?.titulo }}</h1>
+            <div class="detalle-juego__info-data">
+                <p class="detalle-juego__fecha">
+                    <span class="label">Lanzamiento:</span> {{ juego?.fechaDeLanzamiento | date }}
+                </p>
+                <p class="detalle-juego__desarrollador">
+                    <span class="label">Desarrollador:</span> {{ juego?.desarrollador }}
+                </p>
+                <p class="detalle-juego__editor">
+                    <span class="label">Editor:</span> {{ juego?.editor }}
+                </p>
+                <p class="detalle-juego__clasificacion">
+                    <span class="label">Clasificación:</span> {{ juego?.clasificacion }}
+                </p>
+                <p class="detalle-juego__genero">
+                    <span class="label">Géneros:</span> {{ separarComa(juego?.generos) }}
+                </p>
+                <p class="detalle-juego__plataforma">
+                    <span class="label">Plataformas:</span> {{ separarComa(juego?.plataformas) }}
+                </p>
+                <p class="detalle-juego__idioma">
+                    <span class="label">Idiomas:</span> {{ separarComa(juego?.idiomas) }}
+                </p>
+            </div>
+            <!-- Sección Botones: Controles -->
+            <div class="detalle-juego__controles">
+                <div class="detalle-juego__cantidad">
+                    <button (click)="cambiarCantidad(-1)">-</button>
+                    <input type="number" [value]="cantidad" readonly>
+                    <button (click)="cambiarCantidad(1)">+</button>
+                </div>
+                <button class="detalle-juego__boton-carrito" (click)="agregarAlCarrito()">
+                    <span class="icono-carrito" 
+                    [ngClass]="{ 'carrito-lleno': carritoLleno, 'carrito-vacio': !carritoLleno }"></span>
+                    Comprar
+                </button>
+                <button class="detalle-juego__boton-favorito" (click)="agregarAFavoritos()">
+                    <span class="icono-favoritos"
+                        [ngClass]="{ 'favorito': !esFavorito, 'estrella-favorita': esFavorito }"></span>
+                    {{ esFavorito ? 'Quitar de Favoritos' : 'Agregar a Favoritos' }}
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Segunda sección -->
+    <div class="detalle-juego__descripcion">
+        <h2>Descripción</h2>
+        <p>{{ juego?.descripcion }}</p>
+    </div>
+</div>

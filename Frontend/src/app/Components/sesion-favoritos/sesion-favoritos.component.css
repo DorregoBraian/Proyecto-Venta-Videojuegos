@@ -1,0 +1,46 @@
+.contenedor-carrito {
+  display: flex;
+  gap: 50px;
+  color: white;
+  width: 80%;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin: 0 auto;
+  border: solid red;
+  padding: 2%;
+  background-color: #121212;
+}
+
+.lista-juegos {
+  flex: 3;
+}
+
+.lista-juegos h2 {
+  margin: 2% 0% 5% 0%;
+  text-align: center;
+  font-size: 250%;
+  font-family: "Barlow-Black";
+}
+
+/* Estilos para la tarjeta mientras se arrastra */
+.cdk-drag {
+  cursor: grab;
+  display: flex; /* Asegura que el drag sea visualmente consistente */
+  transition: transform 0.3s ease; /* Suaviza el movimiento de la tarjeta */
+}
+
+/* Estilos para la tarjeta mientras se mueve */
+.cdk-drag-preview {
+  opacity: 1; /* Elimina la transparencia */
+  box-shadow: none; /* Sin sombra */
+  border: none; /* Sin borde */
+  cursor: move;
+  transform: none; /* Asegura que no cambie de tamaño durante el movimiento */
+}
+
+
+/* Estilos para el espacio reservado */
+.cdk-drag-placeholder {
+  opacity: 0; /* Hace invisible el espacio reservado */
+}

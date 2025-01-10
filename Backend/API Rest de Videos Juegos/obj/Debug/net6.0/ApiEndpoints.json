@@ -1,0 +1,659 @@
+[
+  {
+    "ContainingType": "API_Rest_de_Videos_Juegos.Controllers.ClasificacionController",
+    "Method": "GetAllClasificaciones",
+    "RelativePath": "api/Clasificacion",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Rest_de_Videos_Juegos.Controllers.ClasificacionController",
+    "Method": "CreateClasificacion",
+    "RelativePath": "api/Clasificacion",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "clasificacionDto",
+        "Type": "Aplicacion.DTOs.ClasificacionDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Rest_de_Videos_Juegos.Controllers.ClasificacionController",
+    "Method": "GetClasificacionById",
+    "RelativePath": "api/Clasificacion/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Rest_de_Videos_Juegos.Controllers.ClasificacionController",
+    "Method": "UpdateClasificacion",
+    "RelativePath": "api/Clasificacion/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "clasificacionDto",
+        "Type": "Aplicacion.DTOs.ClasificacionDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Rest_de_Videos_Juegos.Controllers.ClasificacionController",
+    "Method": "DeleteClasificacion",
+    "RelativePath": "api/Clasificacion/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Rest_de_Videos_Juegos.Controllers.GeneroController",
+    "Method": "GetAllGeneros",
+    "RelativePath": "api/Genero",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Rest_de_Videos_Juegos.Controllers.GeneroController",
+    "Method": "CreateGenero",
+    "RelativePath": "api/Genero",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "generoDto",
+        "Type": "Aplicacion.DTOs.GeneroDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Rest_de_Videos_Juegos.Controllers.GeneroController",
+    "Method": "GetGeneroById",
+    "RelativePath": "api/Genero/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Rest_de_Videos_Juegos.Controllers.GeneroController",
+    "Method": "UpdateGenero",
+    "RelativePath": "api/Genero/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "generoDto",
+        "Type": "Aplicacion.DTOs.GeneroDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Rest_de_Videos_Juegos.Controllers.GeneroController",
+    "Method": "DeleteGenero",
+    "RelativePath": "api/Genero/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Rest_de_Videos_Juegos.Controllers.IdiomaController",
+    "Method": "GetIdiomas",
+    "RelativePath": "api/Idioma",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Rest_de_Videos_Juegos.Controllers.IdiomaController",
+    "Method": "CreateIdioma",
+    "RelativePath": "api/Idioma",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idiomaDto",
+        "Type": "Aplicacion.DTOs.IdiomaDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Rest_de_Videos_Juegos.Controllers.IdiomaController",
+    "Method": "GetIdiomaById",
+    "RelativePath": "api/Idioma/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Rest_de_Videos_Juegos.Controllers.IdiomaController",
+    "Method": "UpdateIdioma",
+    "RelativePath": "api/Idioma/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "idiomaDto",
+        "Type": "Aplicacion.DTOs.IdiomaDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Rest_de_Videos_Juegos.Controllers.IdiomaController",
+    "Method": "DeleteIdioma",
+    "RelativePath": "api/Idioma/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Rest_de_Videos_Juegos.Controllers.JuegosController",
+    "Method": "GetAllJuegos",
+    "RelativePath": "api/Juegos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Aplicacion.DTOs.JuegoDTO, Aplicacion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_Rest_de_Videos_Juegos.Controllers.JuegosController",
+    "Method": "CreateJuego",
+    "RelativePath": "api/Juegos",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "juegoDto",
+        "Type": "Aplicacion.DTOs.CreateJuegoDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Aplicacion.DTOs.JuegoDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_Rest_de_Videos_Juegos.Controllers.JuegosController",
+    "Method": "GetJuegoById",
+    "RelativePath": "api/Juegos/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Aplicacion.DTOs.JuegoDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_Rest_de_Videos_Juegos.Controllers.JuegosController",
+    "Method": "UpdateJuego",
+    "RelativePath": "api/Juegos/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "createJuegoDto",
+        "Type": "Aplicacion.DTOs.CreateJuegoDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Rest_de_Videos_Juegos.Controllers.JuegosController",
+    "Method": "DeleteJuego",
+    "RelativePath": "api/Juegos/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Rest_de_Videos_Juegos.Controllers.JuegosController",
+    "Method": "GetJuegosByClasificacion",
+    "RelativePath": "api/Juegos/clasificacion/{clasificacion}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "clasificacion",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Rest_de_Videos_Juegos.Controllers.JuegosController",
+    "Method": "FiltrarJuegos",
+    "RelativePath": "api/Juegos/filtrar",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idioma",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "plataforma",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "genero",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "clasificacion",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Rest_de_Videos_Juegos.Controllers.JuegosController",
+    "Method": "GetJuegosByGenero",
+    "RelativePath": "api/Juegos/genero/{genero}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "genero",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Rest_de_Videos_Juegos.Controllers.JuegosController",
+    "Method": "GetJuegosByIdioma",
+    "RelativePath": "api/Juegos/idioma/{idioma}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idioma",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Rest_de_Videos_Juegos.Controllers.JuegosController",
+    "Method": "GetJuegoByName",
+    "RelativePath": "api/Juegos/nombre/{nombre}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nombre",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Aplicacion.DTOs.JuegoDTO, Aplicacion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_Rest_de_Videos_Juegos.Controllers.JuegosController",
+    "Method": "GetJuegosPaginados",
+    "RelativePath": "api/Juegos/paginacion",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cursor",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "limit",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Rest_de_Videos_Juegos.Controllers.JuegosController",
+    "Method": "GetJuegosByPlataforma",
+    "RelativePath": "api/Juegos/plataforma/{plataforma}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "plataforma",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Rest_de_Videos_Juegos.Controllers.PlataformaController",
+    "Method": "GetAllPlataformas",
+    "RelativePath": "api/Plataforma",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Rest_de_Videos_Juegos.Controllers.PlataformaController",
+    "Method": "CreatePlataforma",
+    "RelativePath": "api/Plataforma",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "plataformaDto",
+        "Type": "Aplicacion.DTOs.PlataformaDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Rest_de_Videos_Juegos.Controllers.PlataformaController",
+    "Method": "GetPlataformaById",
+    "RelativePath": "api/Plataforma/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Rest_de_Videos_Juegos.Controllers.PlataformaController",
+    "Method": "UpdatePlataforma",
+    "RelativePath": "api/Plataforma/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "plataformaDto",
+        "Type": "Aplicacion.DTOs.PlataformaDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Rest_de_Videos_Juegos.Controllers.PlataformaController",
+    "Method": "DeletePlataforma",
+    "RelativePath": "api/Plataforma/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Rest_de_Videos_Juegos.Controllers.UsuarioController",
+    "Method": "ObtenerDatosDelUsuario",
+    "RelativePath": "api/Usuario/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Rest_de_Videos_Juegos.Controllers.UsuarioController",
+    "Method": "EnviarCorreo",
+    "RelativePath": "api/Usuario/enviar-correo",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "emailRequest",
+        "Type": "Aplicacion.DTOs.EmailDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Rest_de_Videos_Juegos.Controllers.UsuarioController",
+    "Method": "LoginUsuario",
+    "RelativePath": "api/Usuario/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginDto",
+        "Type": "Aplicacion.DTOs.LoginUsuarioDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Rest_de_Videos_Juegos.Controllers.UsuarioController",
+    "Method": "RecuperarContrasena",
+    "RelativePath": "api/Usuario/recuperar-contrasena",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "recuperarContrasena",
+        "Type": "Aplicacion.DTOs.RecuperarContrasenaDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Rest_de_Videos_Juegos.Controllers.UsuarioController",
+    "Method": "RegistrarUsuario",
+    "RelativePath": "api/Usuario/registro",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "registrarDto",
+        "Type": "Aplicacion.DTOs.RegistrarUsuarioDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

@@ -1,0 +1,37 @@
+<div class="login-container">
+    <div class="login-rectangulo">
+        <img src="Iconos/Logo2.png" alt="Logo" class="login-logo" />
+        <h2 class="login-titulo">Inicia Sesión</h2>
+
+        <form (ngSubmit)="login()">
+            <div class="login-campo">
+                <input type="email" placeholder="Correo Electrónico" [(ngModel)]="email" name="email" required email
+                    class="login-input" />
+            </div>
+            <div class="login-campo">
+                <input [type]="mostrarContrasena ? 'text' : 'password'" placeholder="Contraseña" [(ngModel)]="password"
+                    name="password" required pattern="(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#\$%\^&\*])(?=.{8,})"
+                    class="login-input" />
+                <!-- Botón de Mostrar Contraseña -->
+                <button type="button" class="toggle-password" (click)="toggleMostrarContrasena()">
+                    <img [src]="mostrarContrasena ? 'ojo-abierto.png' : 'ojo-cerrado.png'" alt="Toggle contraseña"
+                        class="password-icon" />
+                </button>
+            </div>
+            <div class="login-recuperar">
+                <div class="login-captcha">
+                    <input type="checkbox" id="captcha" name="checkbox" [(ngModel)]="mantenerSesion"
+                        (change)="onCheckboxChange($event)" />
+                    <label for="captcha">Mantener sesión abierta</label>
+                </div>
+                <div class="login-olvido">
+                    <span routerLink="reset-password" class="login-enlace">Recuperar Contraseña</span>
+                </div>
+            </div>
+
+            <button type="submit" class="login-boton">Iniciar Sesión</button>
+        </form>
+
+        <p class="login-texto">Únete ahora,<span routerLink="sing-up" class="login-enlace">Crea tu cuenta GRATIS</span></p>
+    </div>
+</div>
