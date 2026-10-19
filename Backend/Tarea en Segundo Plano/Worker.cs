@@ -7,43 +7,47 @@ namespace Tarea_en_Segundo_Plano
     {
         private readonly ILogger<Worker> _logger;
         private readonly IServiceScopeFactory _serviceScopeFactory;
+        private readonly IConfiguration _configuration;
+        private readonly IHostApplicationLifetime _lifetime;
 
-        public Worker(ILogger<Worker> logger, IServiceScopeFactory serviceScopeFactory)
+        public Worker(ILogger<Worker> logger, IServiceScopeFactory serviceScopeFactory, IConfiguration configuration, IHostApplicationLifetime lifetime)
         {
             _logger = logger;
             _serviceScopeFactory = serviceScopeFactory;
+            _configuration = configuration;
+            _lifetime = lifetime;
         }
 
         protected override async Task ExecuteAsync(CancellationToken stoppingToken)
         {
-            while (!stoppingToken.IsCancellationRequested)
+            _logger.LogInformation("Worker de carga de datos iniciado: {time}", DateTimeOffset.Now);
+
+            try
             {
-                _logger.LogInformation("Worker ejecutando la carga de datos: {time}", DateTimeOffset.Now);
+                using var scope = _serviceScopeFactory.CreateScope();
 
-                try
+                // Resolver el DataSeeder con sus dependencias Scoped
+                var dataSeeder = scope.ServiceProvider.GetRequiredService<DataSeeder>();
+
+                // Ruta del JSON: primero configuraci贸n (JsonFilePath), si no, la carpeta de salida
+                var jsonFilePath = _configuration["JsonFilePath"];
+                if (string.IsNullOrWhiteSpace(jsonFilePath))
                 {
-                    // Crear un alcance para resolver el DataSeeder y sus dependencias Scoped
-                    using (var scope = _serviceScopeFactory.CreateScope())
-                    {
-                        // Obtener el repositorio Scoped dentro del alcance
-                        var juegoRepository = scope.ServiceProvider.GetRequiredService<IJuegoRepository>();
-
-                        // Resolver el DataSeeder con sus dependencias Scoped
-                        var dataSeeder = scope.ServiceProvider.GetRequiredService<DataSeeder>();
-
-                        // Llamar al m閠odo SeedDataAsync
-                        await dataSeeder.SeedDataAsync(
-                            "C:/Users/Rayan/source/repos/API Rest de Videos Juegos/Tarea en Segundo Plano/Data/DataGame.json");
-                    }
-
-                    // Esperar 1 minuto antes de la siguiente ejecuci髇
-                    //await Task.Delay(TimeSpan.FromMinutes(10), stoppingToken);
+                    jsonFilePath = Path.Combine(AppContext.BaseDirectory, "Data", "DataGame.json");
                 }
-                catch (Exception ex)
-                {
-                    _logger.LogError(ex, "Error durante la ejecuci髇 del Worker.");
-                }
+
+                // Se ejecuta UNA sola vez y el worker finaliza
+                await dataSeeder.SeedDataAsync(jsonFilePath);
             }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Error durante la ejecuci贸n del Worker.");
+            }
+
+            _logger.LogInformation("Worker finalizado. Deteniendo la aplicaci贸n.");
+
+            // Termina el proceso al finalizar (煤til como job de una sola ejecuci贸n)
+            _lifetime.StopApplication();
         }
     }
 }

@@ -1,0 +1,7 @@
+# Artefactos de build (evita copiar binarios .NET compilados en Windows)
+**/bin
+**/obj
+**/.vs
+**/.vscode
+**/TestResults
+**/*.user

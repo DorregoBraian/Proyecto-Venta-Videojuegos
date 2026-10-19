@@ -1,12 +1,13 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { BehaviorSubject, Observable } from 'rxjs';
+import { environment } from '../../../environments/environment';
 
 @Injectable({
   providedIn: 'root',
 })
 export class ServisLoginService {
-  private apiUsuario = 'https://localhost:7134/api/Usuario'; // URL para obtener usuario
+  private apiUsuario = `${environment.apiUrl}/Usuario`; // URL para obtener usuario
   private isLoggedInSubject = new BehaviorSubject<boolean>(false);
 
   constructor(private http: HttpClient) {}

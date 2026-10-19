@@ -1,0 +1,25 @@
+services:
+  - type: web
+    name: videojuegos-api
+    runtime: docker
+    plan: free
+    region: virginia
+    dockerfilePath: ./Backend/Dockerfile
+    dockerContext: ./Backend
+    healthCheckPath: /health
+    autoDeployTrigger: commit
+    envVars:
+      - key: ASPNETCORE_ENVIRONMENT
+        value: Production
+      - key: ASPNETCORE_URLS
+        value: http://+:10000
+      # Correos desactivados por el momento
+      - key: EmailSettings__Enabled
+        value: "false"
+      # Estos valores se piden en el dashboard de Render (no se guardan en el repo)
+      - key: ConnectionStrings__DefaultConnectionPosgre
+        sync: false
+      - key: EmailDeGemail
+        sync: false
+      - key: PasswordDeGemail
+        sync: false

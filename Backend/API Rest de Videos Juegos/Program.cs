@@ -5,22 +5,18 @@ using Dominio.IRepositorios;
 using Dominio.IServicios;
 using Infraestructura;
 using Infraestructura.Repositorios;
+using Microsoft.AspNetCore.HttpOverrides;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
+// Habilitar User Secrets (en Render las credenciales se pasan por variables de entorno)
+builder.Configuration.AddUserSecrets<Program>();
 
-// Agrego la Base de datos (ConnectionString)
-//var connectionString = builder.Configuration.GetConnectionString("DefaultConnectionSQLServer");
-// para SQL Serve
-//builder.Services.AddDbContext<ApplicationDbContext>(options =>
-    //options.UseSqlServer(connectionString));
-
-// Para Postgres
-var connectionString2 = builder.Configuration.GetConnectionString("DefaultConnectionPosgre");
+// Agrego la Base de datos (ConnectionString de PostgreSQL / Neon)
+var connectionString = builder.Configuration.GetConnectionString("DefaultConnectionPosgre");
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
-    options.UseNpgsql(connectionString2));
-
+    options.UseNpgsql(connectionString));
 
 // Registrar servicios y repositorios
 
@@ -36,10 +32,6 @@ builder.Services.AddScoped<IGeneroRepository, GeneroRepository>();
 builder.Services.AddScoped<IPlataformaService, PlataformaService>();
 builder.Services.AddScoped<IPlataformaRepository, PlataformaRepository>();
 
-// --------------- Imagen ---------------
-builder.Services.AddScoped<IIdiomaService, IdiomaService>();
-builder.Services.AddScoped<IIdiomaRepository, IdiomaRepository>();
-
 // --------------- Clasificacion ---------------
 builder.Services.AddScoped<IClasificacionService, ClasificacionService>();
 builder.Services.AddScoped<IClasificacionRepository, ClasificacionRepository>();
@@ -49,24 +41,20 @@ builder.Services.AddScoped<IIdiomaService, IdiomaService>();
 builder.Services.AddScoped<IIdiomaRepository, IdiomaRepository>();
 
 // --------------- Usuario ---------------
-builder.Services.AddScoped<IUsuarioRepository, UsuarioRepository>(); 
+builder.Services.AddScoped<IUsuarioRepository, UsuarioRepository>();
 builder.Services.AddScoped<IUsuarioService, UsuarioService>();
-
 
 // Agrego el AutoMapper
 builder.Services.AddAutoMapper(typeof(AutoMapperPerfile).Assembly);
 
-// Habilitar User Secrets
-builder.Configuration.AddUserSecrets<Program>();
-
 // Configurar controladores
 builder.Services.AddControllers();
 
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+// Swagger / OpenAPI
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-// Configuraci髇 de CORS
+// Configuraci贸n de CORS
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowAll",
@@ -75,22 +63,43 @@ builder.Services.AddCors(options =>
                        .AllowAnyHeader());
 });
 
+// Render termina el TLS en su proxy, por lo que la app recibe HTTP.
+// Con esto ASP.NET Core respeta X-Forwarded-Proto y evita bucles de redirecci贸n.
+builder.Services.Configure<ForwardedHeadersOptions>(options =>
+{
+    options.ForwardedHeaders = ForwardedHeaders.XForwardedFor | ForwardedHeaders.XForwardedProto;
+    options.KnownNetworks.Clear();
+    options.KnownProxies.Clear();
+});
+
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
+// Debe ir ANTES de UseHttpsRedirection
+app.UseForwardedHeaders();
+
+// Swagger (lo dejamos activo tambi茅n en producci贸n para mostrar la API)
+app.UseSwagger();
+app.UseSwaggerUI();
 
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
 
-// Usar CORS en la aplicaci髇
+// Usar CORS en la aplicaci贸n
 app.UseCors("AllowAll");
 
 app.MapControllers();
+
+// Health check para Render
+app.MapGet("/health", () => Results.Ok(new { status = "ok", time = DateTimeOffset.UtcNow }));
+
+// Aplicar migraciones al arrancar solo si se indica por configuraci贸n
+// (variable de entorno: RunMigrationsOnStartup=true)
+if (app.Configuration.GetValue<bool>("RunMigrationsOnStartup"))
+{
+    using var scope = app.Services.CreateScope();
+    var db = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
+    db.Database.Migrate();
+}
 
 app.Run();

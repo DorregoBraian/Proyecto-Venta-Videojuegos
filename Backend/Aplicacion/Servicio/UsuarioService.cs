@@ -95,12 +95,17 @@ namespace Aplicacion.Servicio
 
                     await _usuarioRepository.ActualizarAsync(usuario);
 
-                    // Enviar un correo al usuario con la nueva contraseña
-                    var asunto = "Recuperación de contraseña";
-                    var mensaje = $"Hola {usuario.Nombre},\n\nTu nueva contraseña es: {nuevaContrasena}\nPor seguridad, te recomendamos cambiarla al iniciar sesión.";
-                    await EnviarCorreo(usuario.Email, asunto, mensaje); // Llama al método que ya tienes para enviar correos
+                    // Enviar un correo al usuario con la nueva contraseña (si está habilitado)
+                    if (EmailHabilitado())
+                    {
+                        var asunto = "Recuperación de contraseña";
+                        var mensaje = $"Hola {usuario.Nombre},\n\nTu nueva contraseña es: {nuevaContrasena}\nPor seguridad, te recomendamos cambiarla al iniciar sesión.";
+                        await EnviarCorreo(usuario.Email, asunto, mensaje); // Llama al método que ya tienes para enviar correos
 
-                    return "Se a enviado un Correo con la nueva contraseña a su email";
+                        return "Se a enviado un Correo con la nueva contraseña a su email";
+                    }
+
+                    return "Contraseña actualizada correctamente. (El envío de correos está desactivado)";
                 }
                 throw new Exception("El email no está registrado.");
             }
@@ -110,7 +115,14 @@ namespace Aplicacion.Servicio
         //Metodo para enviar el correo de la confirmacion del canbio de contraseña
         public async Task EnviarCorreo(string destinatario, string asunto, string mensaje)
         {
-            // Obtener credenciales desde User Secrets
+            // Si el envío de correos está desactivado por configuración, no hacemos nada.
+            if (!EmailHabilitado())
+            {
+                Console.WriteLine("Envío de correos deshabilitado (EmailSettings:Enabled=false).");
+                return;
+            }
+
+            // Obtener credenciales desde User Secrets / variables de entorno
             string emailEmisor = _configuration["EmailDeGemail"];
             string password = _configuration["PasswordDeGemail"];
 
@@ -148,6 +160,12 @@ namespace Aplicacion.Servicio
         }
         
         // ---------------- Metodos Auxiliares ----------------
+
+        // Indica si el envío de correos está habilitado por configuración (EmailSettings:Enabled)
+        private bool EmailHabilitado()
+        {
+            return bool.TryParse(_configuration["EmailSettings:Enabled"], out var enabled) && enabled;
+        }
 
         // Método para hacer el hash de la contraseña (SHA256)
         private string HashearContrasena(string password)

@@ -8,16 +8,17 @@ import { IPlataforma } from '../../Modelos/Modelo-Plataforma';
 import { IClasificacion } from '../../Modelos/Modelo-Clasificacion';
 import { RespuestaPaginada } from '../../Modelos/RespuestaPaginada';
 import { RespuestaFiltroPaginada } from '../../Modelos/RespuestaFiltroPaginado';
+import { environment } from '../../../environments/environment';
 
 @Injectable({
   providedIn: 'root',
 })
 export class ServiceJuegosService {
-  private apiUrl = 'https://localhost:7134/api/Juegos'; // URL base de tu API REST
-  private apiGenerosUrl = 'https://localhost:7134/api/Genero'; // URL para obtener géneros
-  private apiIdiomasUrl = 'https://localhost:7134/api/Idioma'; // URL para obtener idiomas
-  private apiPlataformasUrl = 'https://localhost:7134/api/Plataforma'; // URL para obtener plataforma
-  private apiClasificacionUrl = 'https://localhost:7134/api/Clasificacion'; // URL para obtener clasificacion
+  private apiUrl = `${environment.apiUrl}/Juegos`; // URL base de tu API REST
+  private apiGenerosUrl = `${environment.apiUrl}/Genero`; // URL para obtener géneros
+  private apiIdiomasUrl = `${environment.apiUrl}/Idioma`; // URL para obtener idiomas
+  private apiPlataformasUrl = `${environment.apiUrl}/Plataforma`; // URL para obtener plataforma
+  private apiClasificacionUrl = `${environment.apiUrl}/Clasificacion`; // URL para obtener clasificacion
 
   constructor(private http: HttpClient) {}
 
