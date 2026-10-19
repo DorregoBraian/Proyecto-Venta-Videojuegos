@@ -2,5 +2,5 @@
 // IMPORTANTE: si en Render el servicio tiene otro nombre, cambiá esta URL.
 export const environment = {
   production: true,
-  apiUrl: 'https://videojuegos-api.onrender.com/api',
+  apiUrl: 'https://videojuegos-api-z04m.onrender.com/api',
 };
